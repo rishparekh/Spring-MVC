@@ -16,5 +16,9 @@ Student Name: ${param.studentName}
 
 The message: ${message}
 
+<br></br>
+
+<img alt="Spring io" src="${pageContext.request.contextPath}/resources/images/spring.png">
+
 </body>
 </html>

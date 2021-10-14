@@ -17,6 +17,10 @@
 	<!-- Step 4: Add support for conversion, formatting and validation support -->
 	<mvc:annotation-driven/>
 
+	<!-- configuring static resources URL mapping -->
+	<mvc:resources location="/resources/"
+	mapping="/resources/**"></mvc:resources>
+
 	<!-- Step 5: Define Spring MVC view resolver -->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
