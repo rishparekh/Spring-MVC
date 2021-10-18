@@ -7,6 +7,7 @@ public class Student {
 	private String firstName;
 	private String lastName;
 	private String country;
+	private String nativeCountry;
 	
 	private LinkedHashMap<String, String> countries;
 	
@@ -40,6 +41,16 @@ public class Student {
 
 	public String getCountry() {
 		return country;
+	}
+	
+	
+
+	public String getNativeCountry() {
+		return nativeCountry;
+	}
+
+	public void setNativeCountry(String nativeCountry) {
+		this.nativeCountry = nativeCountry;
 	}
 
 	public void setCountry(String country) {

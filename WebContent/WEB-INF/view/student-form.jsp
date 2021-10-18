@@ -33,6 +33,14 @@ Country:<form:select path="country">
 
 <br></br>
 
+Native Country:<form:select path="nativeCountry">
+
+<form:options items="${theCountryOptions}"/>
+
+</form:select>
+
+<br></br>
+
 <input type="submit" value="Submit"/>
 
 </form:form>
