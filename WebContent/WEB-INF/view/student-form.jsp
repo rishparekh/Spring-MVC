@@ -41,6 +41,14 @@ Native Country:<form:select path="nativeCountry">
 
 <br></br>
 
+Favorite Language:
+Java<form:radiobutton path="favoriteLanguage" value="Java"/>
+Kotlin<form:radiobutton path="favoriteLanguage" value="Kotlin"/>
+PHP<form:radiobutton path="favoriteLanguage" value="PHP"/>
+Ruby<form:radiobutton path="favoriteLanguage" value="Ruby"/>
+
+<br></br>
+
 <input type="submit" value="Submit"/>
 
 </form:form>

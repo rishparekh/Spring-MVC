@@ -18,5 +18,9 @@ Country:${student.country }
 
 Native country:${student.nativeCountry}
 
+<br></br>
+
+Favorite Language:${student.favoriteLanguage }
+
 </body>
 </html>
