@@ -49,6 +49,10 @@ Ruby<form:radiobutton path="favoriteLanguage" value="Ruby"/>
 
 <br></br>
 
+Secondary Skill:<form:radiobuttons path="secondarySkill" items="${student.secondarySkills}"/>
+
+<br></br>
+
 <input type="submit" value="Submit"/>
 
 </form:form>

@@ -9,8 +9,10 @@ public class Student {
 	private String country;
 	private String nativeCountry;
 	private String favoriteLanguage;
+	private String secondarySkill;
 	
 	private LinkedHashMap<String, String> countries;
+	private LinkedHashMap<String, String> secondarySkills;
 	
 	public Student() {
 		countries = new LinkedHashMap<String, String>();
@@ -20,6 +22,12 @@ public class Student {
 		countries.put("DE", "Germany");
 		countries.put("FR", "FRANCE");
 		countries.put("BR", "BRAZIL");
+		
+		secondarySkills = new LinkedHashMap<String, String>();
+		secondarySkills.put("AngularJS", "AngularJS");
+		secondarySkills.put("ReactJS", "ReactJS");
+		secondarySkills.put("AWS", "AWS");
+		secondarySkills.put("NodeJS", "NodeJS");
 		
 		
 	}
@@ -65,10 +73,26 @@ public class Student {
 	public void setFavoriteLanguage(String favoriteLanguage) {
 		this.favoriteLanguage = favoriteLanguage;
 	}
+	
+	
+
+	public String getSecondarySkill() {
+		return secondarySkill;
+	}
+
+	public void setSecondarySkill(String secondarySkill) {
+		this.secondarySkill = secondarySkill;
+	}
 
 	public LinkedHashMap<String, String> getCountries() {
 		return countries;
 	}
+
+	public LinkedHashMap<String, String> getSecondarySkills() {
+		return secondarySkills;
+	}
+	
+	
 	
 	
 }

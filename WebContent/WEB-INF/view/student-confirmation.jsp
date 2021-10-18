@@ -22,5 +22,9 @@ Native country:${student.nativeCountry}
 
 Favorite Language:${student.favoriteLanguage }
 
+<br></br>
+
+Secondary Skill: ${student.secondarySkill }
+
 </body>
 </html>
