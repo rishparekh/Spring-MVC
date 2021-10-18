@@ -53,6 +53,13 @@ Secondary Skill:<form:radiobuttons path="secondarySkill" items="${student.second
 
 <br></br>
 
+Operating Systems:
+Linux <form:checkbox path="operatingSystems" value="Linux"/>
+Mac <form:checkbox path="operatingSystems" value="Mac"/>
+Windows <form:checkbox path="operatingSystems" value="Windows"/>
+
+<br></br>
+
 <input type="submit" value="Submit"/>
 
 </form:form>

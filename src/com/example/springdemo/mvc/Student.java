@@ -14,6 +14,8 @@ public class Student {
 	private LinkedHashMap<String, String> countries;
 	private LinkedHashMap<String, String> secondarySkills;
 	
+	private String[] operatingSystems;
+	
 	public Student() {
 		countries = new LinkedHashMap<String, String>();
 		
@@ -90,6 +92,14 @@ public class Student {
 
 	public LinkedHashMap<String, String> getSecondarySkills() {
 		return secondarySkills;
+	}
+
+	public String[] getOperatingSystems() {
+		return operatingSystems;
+	}
+
+	public void setOperatingSystems(String[] operatingSystems) {
+		this.operatingSystems = operatingSystems;
 	}
 	
 	
