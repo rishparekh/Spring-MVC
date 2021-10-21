@@ -36,6 +36,11 @@ public class CustomerController {
 
 	@RequestMapping("/processForm")
 	public String processForm(@Valid @ModelAttribute("customer") Customer theCustomer, BindingResult bindingResult) {
+		
+		System.out.println("Binding result: "+bindingResult);
+		
+		System.out.println("\n\n\n\n");
+		
 		if (bindingResult.hasErrors()) {
 			return "customer-form";
 		}
