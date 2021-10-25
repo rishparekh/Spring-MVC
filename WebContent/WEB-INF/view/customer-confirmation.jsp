@@ -17,6 +17,10 @@ Free passes: ${customer.freePasses }
 
 Postal Code: ${customer.postalCode }
 
+<br><br>
+
+Corse code: ${customer.courseCode }
+
 </body>
 
 </html>
